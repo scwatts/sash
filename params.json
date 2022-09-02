@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "subject": "SBJ02241__PRJ221194",
+    "tumor_name": "PRJ221194",
+    "normal_name": "PRJ221193"
+  },
+  "input": {
+    "tumor_bam": "/data/data/sample_data/PRJ221194_tumor.bam",
+    "normal_bam": "/data/data/sample_data/PRJ221193_normal.bam",
+    "tumor_smlv_vcf": "/data/data/sample_data/PRJ221194.hard-filtered.vcf.gz",
+    "normal_smlv_vcf": "/data/data/sample_data/PRJ221193.hard-filtered.vcf.gz",
+    "sv_vcf": "/data/data/sample_data/PRJ221194.sv.vcf.gz"
+  },
+  "refdata": {
+    "genome_dir": "/data/data/reference_data_gitrepo/reference_data/umccrise",
+    "genome_name": "hg38.fa",
+    "main_contigs_bed": "/data/data/reference_data_gitrepo/reference_data/umccrise/hg38_noalt.bed",
+    "hotspots_vcf": "/data/data/reference_data_gitrepo/reference_data/umccrise/hotspots/merged.vcf.gz",
+    "ga4gh_dir": "/data/data/reference_data_gitrepo/reference_data/umccrise/problem_regions/GA4GH",
+    "lcr": "/data/data/reference_data_gitrepo/reference_data/umccrise/problem_regions/repeats/LCR.bed.gz",
+    "segdup": "/data/data/reference_data_gitrepo/reference_data/umccrise/problem_regions/segdup.bed.gz",
+    "gnomad_vcf": "/data/data/reference_data_gitrepo/reference_data/umccrise/gnomad_genome.r2.1.common_pass_clean.norm.vcf.gz",
+    "giab_high_conf": "/data/data/reference_data_gitrepo/reference_data/umccrise/hmf/HG001_GRCh38_GIAB_highconf_CG-IllFB-IllGATKHC-Ion-10X-SOLID_CHROM1-X_v.3.3.2_highconf_nosomaticdel_noCENorHET7.bed.gz",
+    "encode": "/data/data/reference_data_gitrepo/reference_data/umccrise/problem_regions/ENCODE/encode4_unified_blacklist.bed.gz",
+    "coding_regions": "/data/data/reference_data_gitrepo/reference_data/umccrise/hmf/coding_regions.bed",
+    "sage_pon": "/data/data/reference_data_gitrepo/reference_data/umccrise/hmf/SageGermlinePon.hg38.98x.vcf.gz",
+    "umccr_pon_dir": "/data/data/reference_data_gitrepo/reference_data/umccrise/panel_of_normals",
+    "umccr_pon_snps_toml": "/data/data/reference_data_gitrepo/reference_data/extra/vcfanno_snps.toml",
+    "umccr_pon_indels_toml": "/data/data/reference_data_gitrepo/reference_data/extra/vcfanno_indels.toml",
+    "pcgr_dir": "/data/data/reference_data_gitrepo/reference_data/umccrise/pcgr/data",
+    "pcgr_toml": "/data/data/reference_data_gitrepo/reference_data/extra/pcgr.toml",
+    "cpsr_toml": "/data/data/reference_data_gitrepo/reference_data/extra/cpsr.toml",
+    "amber_germline_het_pon": "/data/data/reference_data_gitrepo/reference_data/umccrise/hmf/GermlineHetPon.hg38.vcf.gz",
+    "hmf_gc_profile": "/data/data/reference_data_gitrepo/reference_data/umccrise/hmf/GC_profile.1000bp.cnp",
+    "snpeff_db_name": "GRCh38.86",
+    "snpeff_db_dir": "/data/data/reference_data_gitrepo/reference_data/umccrise/snpeff/data/",
+    "key_genes_txt": "/data/data/reference_data_gitrepo/reference_data/extra/NGS_Utils/ngs_utils/reference_data/key_genes/umccr_cancer_genes.latest.genes",
+    "key_tsgenes_txt": "/data/data/reference_data_gitrepo/reference_data/extra/NGS_Utils/ngs_utils/reference_data/key_genes/umccr_cancer_genes.tsgenes.latest.genes",
+    "bed_annotations_appris": "/data/data/reference_data_gitrepo/reference_data/extra/bed_annotation/ensembl/hg38/appris_data.principal.txt",
+    "known_fusion_pairs": "/data/data/reference_data_gitrepo/reference_data/extra/NGS_Utils/ngs_utils/reference_data/fusions/knownFusionPairs.csv",
+    "known_fusion_heads": "/data/data/reference_data_gitrepo/reference_data/extra/NGS_Utils/ngs_utils/reference_data/fusions/knownPromiscuousFive.csv",
+    "known_fusion_tails": "/data/data/reference_data_gitrepo/reference_data/extra/NGS_Utils/ngs_utils/reference_data/fusions/knownPromiscuousThree.csv",
+    "fusioncatcher_pairs": "/data/data/reference_data_gitrepo/reference_data/extra/NGS_Utils/ngs_utils/reference_data/fusions/fusioncatcher_pairs.txt",
+    "circos_baf_conf": "/data/data/reference_data_gitrepo/reference_data/extra/umccrise/circos_baf.conf",
+    "circos_gaps": "/data/data/reference_data_gitrepo/reference_data/extra/umccrise/gaps_hg38.txt"
+  }
+}
